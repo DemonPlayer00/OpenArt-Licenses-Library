@@ -1,106 +1,98 @@
-# OpenArt License
+# OpenArt-mainline
 
-The OpenArt License is a **trust‑network based licensing agreement** for artistic works. It is designed to resist policies, platform rules, or technical processing that may cause involuntary impairment of artworks, to protect the artist’s control over the integrity of their work, and to facilitate the free flow of unmodified artworks among artists.
+**Mainline Version · Non-Commercial Use Only**
+
+OpenArt-mainline is the non‑commercial mainline version of the OpenArt License family. It is designed to resist policies, platform rules, or technical processing that may cause involuntary impairment of artworks, and to build an **artist‑maintained Trust Network** where unmodified artworks can flow freely while the artist’s right of attribution is fully preserved.
 
 ## Highest Goal
 
-**To build an artist‑maintained Trust Network in which unmodified artistic works can flow safely and completely, without relying on external legal systems or platform goodwill, while fully preserving the artist’s moral rights, including the right of attribution.**
+**Let art remain whole, and let trust replace coercion.**
 
-Specifically:
+- **Resist Impairment** – Any form of lossy compression, alteration of color configuration, automatic watermarks, forced format conversion, etc., is considered an infringement upon the integrity of the work.
+- **Technical Self‑Reliance** – Using encrypted archives, permissive platforms, color‑configuration verification, and other technical measures so that the distribution of artworks does not depend on any intermediary that might harm the work.
+- **Trust over Rules** – Within the Trust Network, the collective commitment of artists takes precedence over any conflicting law, policy, or platform term.
+- **No Reliance on External Recognition** – The validity of this License comes solely from the voluntary compliance and mutual supervision of its members, without seeking external legal or administrative support.
 
-- **Resist Impairment**: Any form of lossy compression, metadata removal, automatic watermarks, forced format conversion, etc., is considered an infringement upon the integrity of the work.
-- **Technical Self‑Reliance**: Using encrypted archives, permissive platforms, member public‑key systems, and other technical measures, so that the distribution of artworks does not depend on any intermediary that might harm the work.
-- **Trust over Rules**: Within the Trust Network defined by this License, the collective commitment of artists takes precedence over any conflicting law, policy, or platform term.
-- **Individual Enforcement**: This License does not seek external judicial or administrative support. Its effectiveness comes solely from the voluntary compliance and mutual supervision of Trust Network members. Each artist is responsible for evaluating and enforcing the License personally.
+## Core Approach
 
-## License Versions
+### 1. Trust Network
 
-Two independent versions of the OpenArt License are provided to suit different use cases:
+- Anyone who publishes a work under this License **automatically becomes a Trust Network member**.
+- Members **mutually authorize each other** – no separate agreement is required to exchange unmodified works.
+- **Trust transfer** – For works obtained from the Network, the scope of rights is always governed solely by this License.
+- **Even if the original author withdraws from the Network, already distributed works may continue to be redistributed by others without further consent.**
 
-| Version | Scope | Typical Use |
-|---------|-------|--------------|
-| **Original (Non‑Commercial Trust Network Edition)** | Non‑profit artistic works | Personal creative sharing, non‑commercial art exchanges, educational use, non‑profit exhibitions, etc. |
-| **Commercial Edition** | Commercial artistic works | Works that may be sold, licensed, used in advertising, embedded in commercial products, used in for‑profit services, etc. (commercial authorization required separately) |
+### 2. Strict Definition of “Unmodified”
 
-> The core provisions (work integrity protection, Trust Network mechanisms, technical distribution requirements, attribution, etc.) are identical in both versions. The only difference is whether commercial use is allowed. **The Original Edition strictly prohibits any commercial use**, while the Commercial Edition permits commercial use, possibly subject to additional licensing conditions.
+A work is considered “unmodified” only if it satisfies **both** of the following:
 
-## Purpose of the License
+- **Core content data strictly identical** – Pixel matrix, sample sequence, frame sequence, vertex data, etc., must be **bit‑identical** to the original state (lossless compression allowed, but the decompressed data must be exactly identical to the original).
+- **Color configuration completely identical** – ICC profile, color space definition, etc., **must not be changed, removed, or replaced** (if the original had no embedded color configuration, it is deemed to use the default color space – typically sRGB – and none may be added).
+- **Other metadata (EXIF, XMP, etc.) may be changed arbitrarily** – this does not affect the unmodified status.
 
-### 1. Establish a Trust Network
+### 3. Distribution Channel Restrictions
 
-- Any artist who accepts this License and publishes a work automatically becomes a member of the Trust Network.
-- Members mutually authorize each other – no separate agreement is required to exchange unmodified works.
-- Trust is transitive: for works obtained from the Network, the scope of rights is always governed solely by this License.
+- **Prefer “Permissive Platforms”** – Platforms that do not apply lossy compression, do not add watermarks, and do not restrict downloading of original files.
+- If a Permissive Platform is unavailable, the work must be distributed as an **AES‑256 encrypted, losslessly compressed archive**, with the password transmitted separately over a secure channel.
+- **No benefit barriers** – You must not require the recipient to perform any action that brings direct or indirect benefit to the original author (tips, follows, likes, payments, etc.). Recipients may be asked to install third‑party apps or register accounts, as long as the original author does not gain any benefit from those actions.
 
-### 2. Enforce Work Integrity Protection
+### 4. Tolerance for Externally Forced Impairment
 
-- **Lossy compression is prohibited**: Even when used for archiving, lossy formats such as JPEG are presumed to cause impairment.
-- **Metadata must not be altered**: EXIF, XMP, IPTC and other metadata must remain intact.
-- **No automatic watermarks or markings**.
-- **No platform may restrict download of original files or lock works into proprietary formats**.
-- Members who violate these obligations will have their membership automatically suspended.
+If an artist is **forced to impair a work due to mandatory legal or platform policy requirements** (involuntary):
 
-### 3. Technical Distribution Standards
+- Their Trust Network membership **will not be automatically suspended**.
+- However, they must clearly mark the impaired version as “not an OpenArt-mainline unmodified artwork” and **must not distribute it as an unmodified work** within the Trust Network.
+- They shall use best reasonable efforts to provide an unmodified version through other channels (e.g., encrypted archive, alternative platform).
 
-- **Prefer “Permissive Platforms”**: Platforms that do not apply lossy compression, do not add watermarks, do not modify metadata, and do not restrict download of original files.
-- **Encrypted Archive as fallback**: When a Permissive Platform is unavailable, the work must be distributed as an AES‑256 encrypted, losslessly compressed archive, with the password transmitted separately over a secure channel.
-- A public preview version may use lower resolution or lossy compression, but must not replace the original work in member‑to‑member distribution.
+### 5. Non‑Commercial Use
 
-### 4. Right of Attribution Remains Intact
+- This License **strictly prohibits any commercial use** (selling, advertising, embedding in commercial products, for‑profit services, etc.).
+- Personal study, non‑profit sharing within the Network, and non‑commercial exhibitions (with no admission fee) are allowed.
+- For commercial needs, please wait for the **OpenArt-commerce** version.
 
-- When using or distributing a work, you must clearly indicate the original author’s name (or pseudonym), the title of the work, and the name of this License, in a reasonable manner.
-- For encrypted archives, the attribution information must be included in the password distribution information and be accessible before decryption.
+## Summary of Main Rules
 
-### 5. Precedence over External Rules
+| Area | Specific Requirement |
+|------|----------------------|
+| **Redistribution right** | Any member may redistribute unmodified works without further consent of the original author; withdrawal of the original author does not affect already distributed works. |
+| **Work integrity** | Core content data + color configuration must be strictly identical to the original; lossy compression or color configuration change constitutes impairment. |
+| **Distribution channels** | Prefer permissive platforms; fallback to encrypted lossless archive; prohibit benefit barriers (tips, follows, likes, payments). |
+| **Attribution** | Must clearly indicate author name, work title, and license name; may use file name or accompanying text – not forced to rely on metadata. |
+| **Membership suspension** | Voluntary lossy processing or setting benefit barriers → automatic suspension. Externally forced impairment → no suspension but must mark accordingly. |
+| **Legal conflicts** | Within the Trust Network, this License takes precedence; any liability arising from complying with this License while violating local law is borne solely by the acting individual. |
+| **Commercial restriction** | Commercial use completely prohibited; for commercial needs use the commercial edition. |
 
-- Within the Trust Network, the terms of this License have **supreme effect**.
-- Any claim that “I am forced by law to violate this License” is not accepted under any circumstances – violators immediately lose all authorizations.
-- Any responsibility arising from complying with this License while violating local laws, policies, or platform rules rests solely with the acting individual.
+## How to Use
 
-## How to Use This License
+### As a publisher
 
-### For Artists (Publishers)
+1. Declare on your work (image, source file, etc.):  
+   `This work is licensed under the OpenArt-mainline License.`
+2. Provide both an **unmodified original** (core data + color configuration intact) and a **public preview version** (may be lossy/low resolution).
+3. Upload to a **Permissive Platform**, or create an encrypted archive and make the password publicly available (no benefit barriers).
+4. You automatically become a Trust Network member and may freely obtain and share unmodified works from other members.
 
-1. Include the following statement in the metadata, accompanying file, or distribution notice of the work you wish to protect:
-- This work is licensed under the OpenArt License (Non‑Commercial Trust Network Edition).
-- For details see [Link to full license text]
-2. Provide both versions:
-- **Unmodified Original** (original format, no lossy compression)
-- **Public Preview Version** (may be lower resolution or lossy compressed, for preview)
-3. Prefer to upload your work to a **Permissive Platform** (e.g., self‑hosted IPFS node, cloud storage that respects original files). If you must use a regular platform, create an encrypted archive and distribute the password via a secure channel.
-4. You automatically become a member of the Trust Network. You are entitled to obtain works from other members under this License, but must comply with all its obligations.
+### As a user/recipient
 
-### For Users (Recipients)
-
-1. You obtain the right to use the work, provided that you also comply with this License (including no lossy processing, preserving attribution, non‑commercial use, etc.).
-2. You may share the work with other Trust Network members, but you must not publish it on non‑permissive platforms or use it for commercial purposes.
-3. If you violate any term of this License (e.g., uploading the work to a lossy‑compression platform), all your authorizations automatically terminate, and you must stop using and destroy any unmodified versions you have obtained.
-
-## Technical Recommendations
-
-- **Encrypted Archive**: Use 7‑Zip to create a `.7z` archive with AES‑256 encryption, compression level set to “Store” or “Fast” (lossless).
-- **Permissive Platforms**: Self‑hosted IPFS distribution nodes, file hosts that preserve original downloads, direct member‑to‑member transfers, etc.
-- **Member Authentication**: Trust Network members may voluntarily maintain a shared list of public keys for verifying encrypted password distribution.
-
-## Limitations and Disclaimer
-
-- **This License grants no commercial use rights (Original Edition).** For commercial use, please contact the author to obtain a Commercial Edition license.
-- Works are provided “AS IS”. The author assumes no direct or indirect liability arising from the use of the work.
-- This License does not seek recognition or enforcement by any external legal system. Its validity is derived solely from the voluntary compliance and mutual supervision of its members.
+- You may freely download, use, and redistribute unmodified works, but **must comply with the same integrity protection and attribution obligations**.
+- **Do not** upload works to lossy‑compression platforms, add watermarks, alter color configuration, or impose benefit barriers.
+- Violation automatically terminates all rights; you must destroy any unmodified versions you have obtained.
 
 ## Full License Texts
 
-- **Original Edition (Non‑Commercial Trust Network Edition)**: [OpenArt_License_NonCommercial_EN.md](OpenArt_License_NonCommercial_EN.md)
-- **Commercial Edition**: Please contact [email/website] to obtain the Commercial Edition license text.
+- [English](OpenArt-mainline_EN.md)
+- [Chinese](OpenArt-mainline_ZH.md)
+- [Japanese](OpenArt-mainline_JA.md)
+- [Korean](OpenArt-mainline_KO.md)
 
 ## Join the Trust Network
 
-Any artist who publishes a work under this License automatically becomes a member of the Trust Network. You are invited to participate by:
+Any artist (or individual/organisation) who publishes a work under this License automatically becomes a member. You are invited to:
 
-- Tagging your work with `#OpenArtTrustNetwork`
-- Joining community discussions ([Matrix/Discord/forum link])
-- Sharing your experience with Permissive Platforms or encrypted distribution toolchains
+- Tag your work with `#OpenArtMainline`
+- Share your experience with permissive platforms and toolchains
+- Join community discussions
 
 ---
 
-**OpenArt License – Let art remain whole, and let trust replace coercion.**
+**OpenArt-mainline – Keep art whole, let trust flow.**
