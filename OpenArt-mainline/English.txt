@@ -1,11 +1,20 @@
-OpenArt License
+OpenArt-mainline License
+
+    Mainline Version · Non-Commercial Use Only
+    OpenArt-mainline is the mainline version of the OpenArt License family, designed exclusively for non‑commercial artistic works. This version grants all Trust Network members an irrevocable right to redistribute unmodified artworks, and strictly prohibits any commercial use.
+    Commercial Version (OpenArt-commerce) will be released separately for licensing commercial artistic works. The two versions are not interchangeable.
+
 Preamble
 
 Art is the vessel of human free spirit. Any policy that leads to involuntary impairment, tampering, or restricted dissemination of artistic works is an infringement upon the integrity of art.
 
-The OpenArt License (hereinafter “this License”) aims to build a Trust Network composed of artists, ensuring that unmodified artistic works can flow freely within this network while fully preserving the artist’s moral rights, including the right of attribution. This License does not rely on recognition or endorsement by any external law, policy, or platform — its validity derives solely from the collective consensus and voluntary compliance of Trust Network members.
+The OpenArt-mainline License (hereinafter “this License”) aims to build a Trust Network composed of artists, ensuring that unmodified artistic works can flow freely within this network while fully preserving the artist’s moral rights, including the right of attribution. This License does not rely on recognition or endorsement by any external law, policy, or platform — its validity derives solely from the collective consensus and voluntary compliance of Trust Network members.
 
 Any law, policy, or platform rule that conflicts with this License shall have no precedence within the Trust Network defined by this License; those who do not comply with this License are not permitted to use it.
+
+This License grants all Trust Network members an irrevocable right to redistribute unmodified artistic works without further consent from the original author, even if the original author later withdraws from the Trust Network.
+
+For artists who are forced to impair their works due to mandatory legal or platform policies (non‑technical issues), this License adopts a tolerant approach: their Trust Network membership is not automatically terminated, but they must not circulate the impaired version as an “Unmodified Artwork” within the Trust Network.
 
 Any act of using, distributing, or receiving artistic works under this License constitutes acceptance of and commitment to all the following terms.
 Article 1 – Definitions
@@ -16,37 +25,57 @@ Scope of this License:
 
     Recommended scope: artistic images (including raster, vector, digital paintings, photographic works, etc.), multimedia artworks (including animation, video, interactive media), and their corresponding project files (source project files, layer files, 3D model source files, etc.).
 
-    Minimum scope: all finished images (i.e., final image files intended for display, regardless of format).
+    Minimum scope: all finished images (final image files intended for display, regardless of format).
 
     Covered form: any file transmitted over a network or stored offline falls under the scope of this License.
 
-1.2 “Trust Network” means the mutual commitment relationship established among all artists and organizations that use, distribute, or receive Works under this License. Within this Network, all parties commit not to handle or disseminate Works in any way that would cause impairment of the Work.
+1.2 “Trust Network” means the mutual commitment relationship established among all artists and organizations that use, distribute, or receive Works under this License. Within this Network, all parties commit not to handle or disseminate Works in any way that would cause impairment to the Work’s Core Content Data or Color Configuration.
 
-1.3 “Unmodified Artwork” means a Work that has not been altered, deleted, compressed (lossily), or otherwise impaired in content, resolution, metadata, color information, format, or any other aspect. Lossless compression techniques that do not cause loss of artistic information are not considered impairment.
+1.3 “Unmodified Artwork” means a Work that satisfies both of the following conditions:
 
-1.4 “Impairment” means any act that involuntarily changes the artistic information, technical metadata, or the creator’s intent of the Work. This definition takes precedence over any platform policy. Lossy compression (e.g., quantization compression of image information in JPEG format) is presumed to be impairment regardless of purpose, unless proven otherwise with the original author’s written consent.
+(a) Core Content Data strictly identical: for images – the pixel matrix; for audio – the sample sequence; for video – the frame sequence; for 3D models – vertex/texture data; for other formats – the essential creative content data – must be bit‑identical to the state when completed by the author. Lossless compression encodings are permitted provided that after decompression the data is exactly identical to the original.
 
-1.5 “Permissive Platform” means a network platform that does not apply lossy compression to uploaded Works, does not add watermarks, does not modify metadata, and does not restrict downloading of original file formats.
+(b) Color Configuration strictly identical: for works involving color presentation (e.g., digital images, video), the embedded ICC color profile, color space definition (e.g., sRGB, Adobe RGB, Display P3), color conversion tables, and any other color configuration information must be completely identical to the original, and must not be changed, removed, or replaced. If the original work had no embedded color configuration, it is deemed to use the default color space (typically sRGB), and no color configuration may be added when distributing.
+
+Modification, addition, or deletion of metadata (EXIF, XMP, IPTC, file creation time, thumbnails, etc.) does not constitute modification of the Work and does not affect its status as an “Unmodified Artwork”, unless that metadata also serves as the carrier of Color Configuration (in which case the Color Configuration part is protected, while other parts are not).
+
+1.4 “Impairment” means any act that results in any of the following:
+
+    irreversible change to the Core Content Data (lossy compression, resampling, reduction of color depth, geometric simplification, audio resampling, etc.);
+
+    change, removal, or incorrect replacement of the Color Configuration (including but not limited to stripping ICC profiles, forced color space conversion, ignoring embedded color configuration).
+
+Other changes to metadata (non‑Color‑Configuration parts) do not constitute impairment. This definition takes precedence over any platform policy.
+
+1.5 “Permissive Platform” means a network platform that does not apply lossy compression to uploaded Works, does not add watermarks, and does not restrict downloading of original file formats. (Metadata modification is no longer a disqualifying factor.)
 
 1.6 “Encrypted Archive” means a distribution format created by encrypting and compressing a complete copy of the Work in accordance with the technical standards recommended in Article 6 of this License.
+
+1.7 “Externally Forced Impairment” means impairment that an artist is compelled to apply to a Work due to mandatory requirements of laws, administrative regulations, judicial rulings, government directives, or platform terms of service (where the artist is not voluntary and cannot reasonably avoid). Voluntary technical choices by the artist (e.g., using lossy compression to save storage space) are not Externally Forced Impairment.
 Article 2 – Formation and Effect of the Trust Network
 
 2.1 Any individual or organization that expressly accepts this License — by signing a declaration, publishing a Work under this License, or otherwise — automatically becomes a member of the Trust Network.
 
-2.2 Members of the Trust Network mutually authorize each other — no separate agreement is required. Any member is entitled under this License to receive and use unmodified Works from other members, and to distribute their own Works to other members.
+2.2 Members of the Trust Network mutually authorize each other — no separate agreement is required. Any member is entitled under this License to receive and use Unmodified Artworks from other members, and to distribute their own Works to other members.
 
 2.3 When interacting with non‑members, Trust Network members shall take protective measures such as using Encrypted Archives to ensure that the Work remains in its unmodified state when accessed by non‑members.
 
-2.4 Any member who violates this License’s obligation to preserve the integrity of Works shall have their Trust Network membership automatically suspended. During suspension, the member may not obtain new Works from the Network, but authorizations for Works already obtained remain unaffected.
+2.4 Suspension of membership:
+
+    Voluntary or technical impairment: Any member who, voluntarily or for technical convenience (not due to Externally Forced Impairment), impairs the Core Content Data or Color Configuration of a Work shall have their Trust Network membership automatically suspended. During suspension, the member may not obtain new Works from the Network, but authorizations for Works already obtained remain unaffected. Modification of metadata (non‑Color‑Configuration parts) does not trigger this clause.
+
+    Externally Forced Impairment: If a member is compelled to impair a Work due to Externally Forced Impairment (as defined in Article 1.7), their membership is not automatically terminated. However, the member must comply with all requirements of Article 10.6 and must not distribute the impaired version as an “Unmodified Artwork” within the Trust Network.
 
 2.5 The Trust Network follows the “trust transfer” principle: if Member A obtains a Work from Member B, which Member B obtained from Member C, then A’s rights with respect to that Work are governed solely by this License, regardless of any additional agreement between B and A, unless such agreement provides a higher level of protection for the Work.
+
+2.6 Distribution rights after the original author withdraws from the Trust Network: Even if the original author withdraws from the Trust Network by public declaration or otherwise, all Unmodified Artworks that have been distributed under this License prior to withdrawal may continue to be distributed, used, and circulated by any Trust Network member (and any non‑member who lawfully holds the Work) without further consent from the original author. Withdrawal does not affect the distribution rights already granted. Works published by the original author after withdrawal are not governed by this License unless they are again published under this License.
 Article 3 – Technical and Channel Requirements for Distribution
 
 3.1 All digital artistic works distributed under this License shall be made available in both of the following versions for the recipient’s choice:
 
-(1) Unmodified Original: retains the original format, resolution, color space, and metadata as completed by the creator, without any lossy conversion or modification;
+(1) Unmodified Original: Core Content Data strictly identical to the original state, Color Configuration completely identical to the original, other metadata may be changed arbitrarily;
 
-(2) Public Preview Version: may be presented in lower resolution or lossy compression format for preview, recommendation, or non‑commercial display. This preview version shall not serve as a substitute for the original Work when distributing to Trust Network members.
+(2) Public Preview Version: may be presented in lower resolution, lossy compression format, or with modified Color Configuration (e.g., converted to sRGB for web compatibility), for preview, recommendation, or non‑commercial display. This preview version shall not serve as a substitute for the original Work when distributing to Trust Network members.
 
 3.2 Distribution of Works shall preferentially use Permissive Platforms. The following platform types are explicitly excluded from the scope of this License and shall not be used for distribution of Works within the Trust Network:
 
@@ -54,16 +83,45 @@ Article 3 – Technical and Channel Requirements for Distribution
 
 (2) platforms that automatically add watermarks or markings to Works;
 
-(3) platforms that modify or remove metadata of Works;
+(3) platforms that restrict downloading of original files or lock Works into proprietary formats.
 
-(4) platforms that restrict downloading of original files or lock Works into proprietary formats.
+(Note: platforms that modify or delete metadata are no longer excluded, because metadata is not protected by this License.)
 
 3.3 If technical constraints make use of a Permissive Platform impossible, the Work shall be distributed in the form of an Encrypted Archive, subject to the requirements set forth in Article 6.
+
+3.4 Access barrier restriction: Any member distributing an “Unmodified Artwork” under this License must not require the recipient to perform any operation that directly or indirectly brings benefit to the original author in order to obtain the Work. This restriction is called the “Pro‑Benefit‑Barrier”.
+
+    Prohibited benefit barriers include, but are not limited to:
+
+        payment of money, virtual currency, or any form of compensation;
+
+        tipping or donation (even if voluntary, if made a condition for access);
+
+        following, liking, reposting, commenting, bookmarking, or other actions that bring social capital or platform traffic to the original author;
+
+        filling out commercial promotion forms, watching advertisements, clicking affiliate links, completing rebate tasks;
+
+        providing personal data for commercial purposes (e.g., email addresses for marketing).
+
+    Permitted operations (even if they require extra steps, but do not bring benefit to the original author):
+
+        installing third‑party applications or plugins (e.g., specific cloud storage clients, encryption container software, blockchain wallets), provided that the installation process does not involve the prohibited benefit barriers;
+
+        registering a user account (e.g., creating a free account on a file hosting platform), provided that registration does not require payment, follows, likes, etc., and the original author does not receive referral fees or data proceeds from the registration;
+
+        entering a publicly available password (even if provided by an automated bot, as long as the bot does not require benefit actions);
+
+        completing CAPTCHA or waiting for a countdown timer, as purely technical anti‑abuse measures, provided they are not coupled with benefit requirements.
+
+    Unlimited means: As long as the “Pro‑Benefit‑Barrier” is not violated, any technical or non‑technical means may be used, including but not limited to direct download links, encrypted archives (with password publicly disclosed), magnet links, IPFS, self‑hosted nodes, email sending, etc.
+
+    Consequences of violation: If a member imposes any benefit barrier as a condition for obtaining an Unmodified Artwork, this is deemed a violation of Article 2.4 (voluntary/technical impairment) — because it artificially hinders the free circulation of Works. Their Trust Network membership will be automatically suspended until they remove all benefit barriers and explain the situation to Network members.
+
 Article 4 – Right of Attribution
 
 4.1 The right of attribution remains fully intact and is not affected by any provision of this License.
 
-4.2 Any person who uses or distributes a Work shall clearly indicate the original author’s name (or pseudonym), the title of the Work, and the name of this License in a reasonable manner, placed conspicuously on the Work itself, in its accompanying files, or in the distribution channel.
+4.2 Any person who uses or distributes a Work shall clearly indicate the original author’s name (or pseudonym), the title of the Work, and the name of this License in a reasonable manner, placed on the Work itself, in accompanying files, or in a conspicuous location of the distribution channel, or embedded in metadata (but metadata is not required to be preserved). It is recommended to use methods independent of metadata (e.g., file name or an accompanying .txt file) to avoid loss of attribution due to metadata modification.
 
 4.3 If the Work is distributed as an Encrypted Archive, the distribution information for the encryption password must include the attribution information required by Article 4.2, and such attribution must be accessible before decryption.
 Article 5 – Adaptations and Derivative Works
@@ -72,7 +130,7 @@ Article 5 – Adaptations and Derivative Works
 
 5.2 Adaptation works shall not imply in any way that the original author endorses or is affiliated with the adaptation.
 
-5.3 If the adaptation process involves lossy processing or any form of impairment to the original Work, the adapter shall clearly state in the adaptation work the technical processing performed and its impact on the integrity of the original Work, and such adaptation work shall not be distributed among Network members as “Unmodified Artwork”.
+5.3 If the adaptation process involves lossy processing of the original Work’s Core Content Data, or changes its Color Configuration, or causes any form of impairment, the adapter shall clearly state in the adaptation work the technical processing performed and its impact on the integrity of the original Work, and such adaptation work shall not be distributed among Network members as an “Unmodified Artwork”.
 Article 6 – Technical Recommendation: Encrypted Archive Standard
 
 To implement Article 3 of this License, the following technical standards for Encrypted Archives are recommended:
@@ -85,16 +143,16 @@ AES‑256 symmetric encryption is recommended, using compression software (e.g.,
 
 Only lossless compression algorithms are permitted (e.g., ZIP store mode, 7z using LZMA lossless compression). Any form of lossy processing (including but not limited to JPEG recompression, lossy audio encoding) shall not be applied to Works inside the Encrypted Archive.
 
-6.3 Metadata retention
+6.3 Color Configuration and Metadata
 
-The Encrypted Archive shall fully preserve the original file names, directory structure, and accompanying metadata files of the Work (e.g., EXIF, XMP, IPTC). Platform‑automated modification or removal of metadata is deemed a violation of this License.
+This License mandates the preservation of the original Color Configuration (ICC profile, etc.). Other metadata may be freely handled. The Encrypted Archive shall ensure that Color Configuration information is not stripped by the platform or during transmission.
 
 6.4 Obligations after decryption
 
 Upon decryption of the Work, the recipient obtains authorization for the Work, but must continue to comply with all distribution channel restrictions of this License and shall not publish the decrypted Work on platforms excluded under Article 3.2.
 Article 7 – Validity and Termination of the License
 
-7.1 This License becomes effective when the author marks the Work with it or otherwise declares its application.
+7.1 This License becomes effective when the author marks the Work with it or otherwise declares its application. The author may withdraw from the Trust Network at any time, but withdrawal does not affect the validity of authorizations for Works already distributed under this License. Already distributed Works may continue to be distributed and used by other members and non‑members (lawful holders) under this License.
 
 7.2 If you violate any term of this License, all rights granted to you under this License automatically terminate. Termination does not affect the authorizations among other Trust Network members.
 
@@ -106,22 +164,41 @@ Article 8 – Disclaimer and Limitation of Liability
 8.2 In no event shall the author be liable for any direct, indirect, incidental, special, or consequential damages arising out of the use or inability to use the Work, except where such damages result from the author’s willful misconduct or gross negligence.
 Article 9 – General Provisions
 
-9.1 The moral rights granted by this License (including but not limited to the right of attribution and the right to preserve the integrity of the Work) derive from this License itself and the collective consensus of the Trust Network, and do not depend upon recognition by any national or regional copyright law, court, administrative body, policy, or platform.
+9.1 The moral rights granted by this License (including but not limited to the right of attribution and the right to preserve the integrity of the Work) derive from this License itself and the collective consensus of the Trust Network, and do not depend upon recognition by any national or regional copyright law, court, administrative body, policy, or platform. The “right to preserve the integrity of the Work” protected by this License includes the integrity of the Core Content Data and the Color Configuration, and does not extend to other metadata.
 
-9.2 In the interpretation and application of this License, the principle of protecting the integrity of the Work shall prevail. Any ambiguity shall be resolved in favor of preserving the integrity of the original Work. The power of interpretation belongs to the collective consensus of the Trust Network members, not to any external judicial body.
+9.2 In the interpretation and application of this License, the principle of protecting the integrity of the Work’s Core Content Data and Color Configuration shall prevail. Any ambiguity shall be resolved in favor of preserving the integrity of the original Work’s core data and color configuration. The power of interpretation belongs to the collective consensus of the Trust Network members, not to any external judicial body.
 
 9.3 This License does not seek, accept, or depend upon recognition, endorsement, or enforcement by any external legal system, government agency, or platform terms of service. The sole source of its validity is the voluntary compliance and mutual supervision of Trust Network members.
+
+9.4 Version distinction: This License is OpenArt-mainline (mainline version), applicable only to non‑commercial artistic works. For commercial artistic works, please use OpenArt-commerce (commercial version) or another appropriate license. The two versions are independent and not interchangeable.
 Article 10 – Relationship with Laws and Regulations and Individual Enforcement Responsibility
 
 10.1 The terms of this License have supreme effect. Even if any law, treaty, government policy, platform terms of service, or other normative document in any country or region contains provisions inconsistent with this License, Trust Network members shall comply with this License first.
 
-10.2 If the laws or policies of any jurisdiction require a person to perform acts prohibited by this License (e.g., lossy compression of Works, deletion of metadata, automatic addition of watermarks, restriction of original file distribution), then such person shall not use, distribute, or receive any Work under this License.
+10.2 If the laws or policies of any jurisdiction require a person to perform acts prohibited by this License (e.g., lossy compression of Core Content Data, alteration of Color Configuration, automatic addition of watermarks, restriction of original file distribution), then such person shall not use, distribute, or receive any Work under this License.
 
 10.3 Any act of complying with this License that violates local laws, policies, or platform rules is solely the responsibility of the acting person. This License and the original author provide no legal guarantee or defense. Artists are individually responsible for evaluating conflicts and deciding whether to continue using this License.
 
 10.4 Any claim that “I am forced by law to violate this License” is not accepted under any circumstances under this License. Should such a violation occur, all rights obtained by the violator under this License terminate immediately and irreversibly.
 
 10.5 When Trust Network members discover another member violating this License due to legal or policy pressure, they may decide at their own discretion whether to continue exchanging Works with that member. This License encourages members to take collective exclusion measures, but final enforcement rests with each individual artist.
+
+10.6 Special treatment for Externally Forced Impairment:
+
+    When an artist is compelled to impair the Core Content Data or Color Configuration of a Work due to Externally Forced Impairment (as defined in Article 1.7), such act is not considered a violation of this License. The artist’s Trust Network membership is not affected, and they may continue to receive and distribute unmodified versions of Works from the Network.
+
+    However, the artist must:
+
+        (a) mark the impaired version conspicuously with a statement: “This version contains impairment of core data or color configuration due to mandatory legal/platform policy, and is not an OpenArt-mainline Unmodified Artwork”;
+
+        (b) not distribute such impaired version as an “Unmodified Artwork” within the Trust Network;
+
+        (c) use best reasonable efforts to provide an unmodified version through other channels (e.g., Encrypted Archives, alternative platforms), or inform Trust Network members of alternative means to obtain the unmodified version.
+
+    If the artist can provide reasonable evidence (e.g., platform notice, copy of legal document) proving the existence of external compulsion, other members shall not hold the artist liable or exclude them from the Network solely because of the impaired version.
+
+    If the artist is unable to provide any unmodified version for an extended period (more than 90 days) and fails to give a reasonable explanation to Network members, their membership will enter a “dormant state” – they will no longer be considered an active distributor, but may continue to use unmodified Works already in their possession.
+
 Article 11 – Non‑Commercial Use Restriction
 
 11.1 This License applies only to non‑commercial artistic works.
@@ -138,15 +215,19 @@ Article 11 – Non‑Commercial Use Restriction
 
 11.4 If any person uses a Work under this License for commercial purposes, all rights granted to that person under this License terminate immediately and automatically, and that person shall bear liability for infringement toward the original author.
 
-11.5 This License may not be used for commercialized artistic works. Authors who wish to commercialize their Works shall use a different license or enter into a separate authorization.
+11.5 This License may not be used for commercialized artistic works. Authors who wish to commercialize their Works shall use OpenArt-commerce or another commercial licensing agreement.
 Appendix – Technical Recommendations (Non‑binding)
 
 Recommended implementation paths:
 
-    Encrypted archive toolchain: Use 7‑Zip to create an encrypted .7z archive with AES‑256 encryption, compression level set to “Store” (no compression) or “Fast compression” (lossless), ensuring the Work remains unmodified.
+    Encrypted archive toolchain: Use 7‑Zip to create an encrypted .7z archive with AES‑256 encryption, compression level set to “Store” (no compression) or “Fast” (lossless), ensuring the Core Content Data remains unmodified. Metadata may be freely handled, but Color Configuration must be preserved.
+
+    Color Configuration verification: When saving images, use lossless formats such as PNG or TIFF with embedded ICC profile. Avoid lossy formats like JPEG (even if ICC is retained, pixel data is impaired). Before distribution, you may use tools like exiftool -icc_profile to extract and compare the Color Configuration against the original.
 
     Permissive platform recommendation: Consider self‑hosted distribution nodes based on IPFS, cloud storage services that respect original file formats, or shared storage nodes maintained collectively by Trust Network members. When using a self‑hosted IPFS node, AES‑256 can be used for content encryption and ECC for key protection, with blockchain technology to ensure data integrity and authenticity.
 
     Trust Network member identification: Establish a shared list of member public keys among Trust Network members for verifying encrypted password distribution, and create a simple inter‑party dispute coordination mechanism.
 
-End of License. Using this License signifies your full acceptance of all the above terms and your commitment not to use it for any commercial purpose.
+End of License. Using this License signifies your full acceptance of all the above terms, including that other artists may redistribute your Unmodified Artworks (core data + color configuration intact) without further consent, even if you later withdraw from the OpenArt Trust Network. You commit not to use Works under this License for any commercial purpose.
+
+OpenArt-mainline is the non‑commercial mainline version of the OpenArt License family. For commercial use, please await the release of OpenArt-commerce.
