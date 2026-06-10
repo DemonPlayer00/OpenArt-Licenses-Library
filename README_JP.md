@@ -80,10 +80,10 @@ OpenArt-mainline は OpenArt ライセンスファミリーの非商業メイン
 
 ## 完全なライセンス文
 
-- [日本語版](OpenArt-mainline_JA.md)
-- [英語版](OpenArt-mainline_EN.md)
-- [中国語版](OpenArt-mainline_ZH.md)
-- [韓国語版](OpenArt-mainline_KO.md)
+- [日本語版](OpenArt-mainline/JP.txt)
+- [英語版](OpenArt-mainline/EN.txt)
+- [中国語版](OpenArt-mainline/CN.txt)
+- [韓国語版](OpenArt-mainline/KR.txt)
 
 ## トラストネットワークへの参加
 

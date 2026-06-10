@@ -80,10 +80,10 @@ OpenArt-mainline은 OpenArt 라이선스 패밀리의 비상업적 메인라인 
 
 ## 전체 라이선스 전문
 
-- [한국어](OpenArt-mainline_KO.md)
-- [영어](OpenArt-mainline_EN.md)
-- [중국어](OpenArt-mainline_ZH.md)
-- [일본어](OpenArt-mainline_JA.md)
+- [한국어](OpenArt-mainline)
+- [영어](OpenArt-mainline/EN.txt)
+- [중국어](OpenArt-mainline/CN.txt)
+- [일본어](OpenArt-mainline/JP.txt)
 
 ## 트러스트 네트워크 참여
 

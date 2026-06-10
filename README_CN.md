@@ -80,10 +80,10 @@ OpenArt-mainline 是 OpenArt 许可证家族的非商业主线版本，专为对
 
 ## 获取完整许可证文本
 
-- [中文版](OpenArt-mainline_ZH.md)
-- [英文版](OpenArt-mainline_EN.md)
-- [日文版](OpenArt-mainline_JA.md)
-- [韩文版](OpenArt-mainline_KO.md)
+- [中文版](OpenArt-mainline/CN.txt)
+- [英文版](OpenArt-mainline/EN.txt)
+- [日文版](OpenArt-mainline/JP.txt)
+- [韩文版](OpenArt-mainline/KR.txt)
 
 ## 参与信任网络
 

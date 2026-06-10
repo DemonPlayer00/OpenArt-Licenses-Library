@@ -80,10 +80,10 @@ If an artist is **forced to impair a work due to mandatory legal or platform pol
 
 ## Full License Texts
 
-- [English](OpenArt-mainline_EN.md)
-- [Chinese](OpenArt-mainline_ZH.md)
-- [Japanese](OpenArt-mainline_JA.md)
-- [Korean](OpenArt-mainline_KO.md)
+- [English](OpenArt-mainline/EN.txt)
+- [Chinese](OpenArt-mainline/CN.txt)
+- [Japanese](OpenArt-mainline/JP.txt)
+- [Korean](OpenArt-mainline/KR.txt)
 
 ## Join the Trust Network
 
